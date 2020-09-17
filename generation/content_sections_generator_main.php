@@ -12,7 +12,7 @@
 				{
 					echo '
 					<div class="col">
-							<div class="card" style="width: 14rem;">
+							<div class="card" style="width: 16rem;">
 									<img src="https://img.pagecloud.com/tWPboshK5zPVluKPHCb35v-BXTw=/175x0/filters:no_upscale()/puresalt/download-vb58a.jpg" class="card-img-top" alt="...">
 									<div class="card-body">
 											<p class="card-text">News text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
