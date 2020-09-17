@@ -1,23 +1,29 @@
-<?php 
+<?php
 	
 	generateMain(3, 3);
-
-
 	function generateMain($cols, $rows)
 	{
-		echo "<table>";
-		for ($i=0; $i<$rows; $i++) 
+		for ($i=0; $i<$rows; $i++)
 		{
-			echo "<tr>";
-			for ($j=0; $j<$cols; $j++) 
-			{
-				echo "<td>";
-				echo '<div class="news-panel">', "Main content news panel", "</div>";
-				echo "</td>";
-			}
-			echo "</tr>";
+			echo '
+			<div class= "row" style ="margin-bottom: 15px">
+					';
+				for ($j=0; $j<$cols; $j++)
+				{
+					echo '
+					<div class="col">
+							<div class="card" style="width: 14rem;">
+									<img src="https://img.pagecloud.com/tWPboshK5zPVluKPHCb35v-BXTw=/175x0/filters:no_upscale()/puresalt/download-vb58a.jpg" class="card-img-top" alt="...">
+									<div class="card-body">
+											<p class="card-text">News text. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
+									</div>
+							</div>
+					</div>
+					';
+				}
+				echo '
+			</div>
+			';
 		}
-		echo "</table>";
 	}
-
 ?>

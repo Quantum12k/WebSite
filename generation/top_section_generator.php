@@ -7,10 +7,12 @@
 
 	function generateTopMenu($blocks)
 	{
+		echo '<div class="row">';
 		foreach ($blocks as $name) 
 		{
-		 	echo '<div class="header-vertical-menus-line-news-section">', $name, "</div>";
+		 	echo '<div class="col-2"> <a href="#" class="text-secondary">', $name, "</a></div>";
 		} 
+		echo '</div>';
 	}
 
 ?>
