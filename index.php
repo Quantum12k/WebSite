@@ -18,7 +18,7 @@
 								<div class="col-2"> <a href="#" class="text-light"> Login </a></div>
 							</div>
 							<div class="col">
-								<div class="col-2"> <a href="#" class="text-light"> Registration </a></div>
+								<div class="col-2"> <a href="signup/form_sign.php" class="text-light"> Signup </a></div>
 							</div>
 						</div>
 					</div>
