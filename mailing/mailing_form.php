@@ -44,30 +44,7 @@
 						</div>
 						<div class="input-group mb-3">
 							<div class="input-group-prepend">
-								<div class="input-group-text">
-									<div class="col">
-										Kazan news
-									</div>
-									<input type="checkbox" name="kazan_box">
-								</div>
-								<div class="input-group-text">
-									<div class="col">
-										Tech news
-									</div>
-									<input type="checkbox" name="tech_box">
-								</div>
-								<div class="input-group-text">
-									<div class="col">
-										Sport news
-									</div>
-									<input type="checkbox" name="sport_box">
-								</div>
-								<div class="input-group-text">
-									<div class="col">
-										Science news
-									</div>
-									<input type="checkbox" name="science_box">
-								</div>
+								<?php require_once('generation/themes_gen.php') ?>
 							</div>
 						</div>
 						<button type="submit" class="btn btn-primary" name="submit" value="Submit Data">Subscribe</button>
