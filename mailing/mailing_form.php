@@ -24,7 +24,7 @@
 					<form name="sign" action="sub_done.php" method="post">
 						<div class="form-group">
 							<label for="user_email">Email address</label>
-							<input type="email" class="form-control" id="user_email" aria-describedby="emailHelp" name="user_email">
+							<input type="email" class="form-control" id="user_email" aria-describedby="emailHelp" name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="example@e-mail.com" required>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
 						
@@ -35,7 +35,7 @@
 						<div class="form-group row">
 							<label for="inputDate" class="col-sm-2 col-form-label">News recieve delay</label>
 							<div class="form-group col-md-4">
-								<select id="gender" class="form-control" name="delay">
+								<select id="delay" class="form-control" name="delay">
 									<option selected>Daily</option>
 									<option>Weekly</option>
 									<option>Monthly</option>

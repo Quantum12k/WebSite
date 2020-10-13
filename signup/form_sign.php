@@ -28,21 +28,21 @@
 								<div class="input-group-prepend">
 									<span class="input-group-text">@</span>
 								</div>
-								<input type="text" class="form-control" name="username">
+								<input type="text" class="form-control" name="username" pattern="[A-Z][a-z]{4-10}" placeholder="From 4 to 10 symbols" required>
 							</div>
 						</div>
 						<div class="form-group">
 							<label for="user_email">Email address</label>
-							<input type="email" class="form-control" id="user_email" aria-describedby="emailHelp" name="user_email">
+							<input type="email" class="form-control" id="user_email" aria-describedby="emailHelp" name="user_email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}" placeholder="example@e-mail.com" required>
 							<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 						</div>
 						<div class="form-group">
 							<label for="pass1">Password</label>
-							<input type="password" class="form-control" id="pass1" name="pass1">
+							<input type="password" class="form-control" id="pass1" name="pass1" pattern="[A-Z][a-z][0-9]{6-15}" placeholder="6-15 symbols: a-z, A-Z, 0-9" required>
 						</div>
 						<div class="form-group">
 							<label for="pass2">Confirm password</label>
-							<input type="password" class="form-control" id="pass2" name="pass2">
+							<input type="password" class="form-control" id="pass2" name="pass2" pattern="[A-Z][a-z][0-9]{6-15}" placeholder="6-15 symbols: a-z, A-Z, 0-9" required>
 						</div>
 						
 						<br></br>
