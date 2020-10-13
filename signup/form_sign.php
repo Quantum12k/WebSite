@@ -28,7 +28,7 @@
 								<div class="input-group-prepend">
 									<span class="input-group-text">@</span>
 								</div>
-								<input type="text" class="form-control" name="username" pattern="[A-Z][a-z]{4-10}" placeholder="From 4 to 10 symbols" required>
+								<input type="text" class="form-control" name="username" pattern="[A-Za-z]{4,10}" placeholder="From 4 to 10 symbols" required>
 							</div>
 						</div>
 						<div class="form-group">
@@ -38,11 +38,11 @@
 						</div>
 						<div class="form-group">
 							<label for="pass1">Password</label>
-							<input type="password" class="form-control" id="pass1" name="pass1" pattern="[A-Z][a-z][0-9]{6-15}" placeholder="6-15 symbols: a-z, A-Z, 0-9" required>
+							<input type="password" class="form-control" id="pass1" name="pass1" pattern="[A-Za-z0-9]{6,15}" placeholder="6-15 symbols: a-z, A-Z, 0-9" required>
 						</div>
 						<div class="form-group">
 							<label for="pass2">Confirm password</label>
-							<input type="password" class="form-control" id="pass2" name="pass2" pattern="[A-Z][a-z][0-9]{6-15}" placeholder="6-15 symbols: a-z, A-Z, 0-9" required>
+							<input type="password" class="form-control" id="pass2" name="pass2" pattern="[A-Za-z0-9]{6,15}" placeholder="6-15 symbols: a-z, A-Z, 0-9" required>
 						</div>
 						
 						<br></br>
