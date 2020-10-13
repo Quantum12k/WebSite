@@ -38,6 +38,7 @@
 					</div>
 					<div class="col-2">
 						<?php require_once('generation/content_sections_generator_trending.php') ?>
+						<a href="mailing/mailing_form.php" class="btn btn-secondary">Subscribe for mailing news!</a>
 					</div>
 				</div>
 			</div>
