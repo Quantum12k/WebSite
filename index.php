@@ -20,6 +20,9 @@
 							<div class="col">
 								<div class="col-2"> <a href="signup/form_sign.php" class="text-light"> Signup </a></div>
 							</div>
+							<div class="col">
+								<div class="col-2"> <a href="publish/form_publish.php" class="text-light"> Publish </a></div>
+							</div>
 						</div>
 					</div>
 				</div>
