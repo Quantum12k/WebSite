@@ -26,8 +26,17 @@
 			return;
 		}
 		
-		$query_text = "SELECT * FROM items";
+		$query_text = "SELECT * FROM items order by publish_date desc";
 		$q = mysql_query($query_text);
+
+		echo '
+            <div class="overflow-auto">
+                <div class="jumbotron jumbotron-fluid rounded">
+                    <div class="container">
+                        <h1 class="display-4">News from our site</h1>
+                        <p class="lead">Selected articles from our authors</p>
+                        <hr class="my-4">
+		';
 
 		for ($i=0; $i<mysql_num_rows($q); $i++)
 		{	
@@ -43,5 +52,11 @@
 			</div>
 			';
 		}
+
+        echo '
+                    </div>
+                </div>
+            </div>
+		';
 	}
 ?>

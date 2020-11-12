@@ -35,18 +35,18 @@
 			
 			<!-- news cards -->
 			<div class="container">
+                <div class="row">
+
+                </div>
 				<div class="row">
-					<div class="col-10">
+					<div class="col-9">
 						<?php require_once('generation/content_sections_generator_main.php') ?>
 					</div>
-					<div class="col-2">
+					<div class="col-3">
 						<?php require_once('generation/content_sections_generator_trending.php') ?>
 						<a href="mailing/mailing_form.php" class="btn btn-secondary">Subscribe for mailing news!</a>
 					</div>
 				</div>
-			</div>
-			<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-top shadow-lg rounded">
-				Footer
 			</div>
 			<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
